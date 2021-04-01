@@ -22,32 +22,45 @@
             <ul class="navigation">
               <div class="nav-item">
                 <div class="super-nav">
-                  <li class="nav-link"><a href="#">Product</a></li>
-                  <button class="arrow"></button>
+                  <li class="nav-link">
+                    <a onclick="expand(event)" href="#">Product</a>
+                    <button onclick="expand(event)" class="arrow"></button>
+                  </li>
+
                 </div>
                 <ul class="sub-nav">
-                  <li class="nav-link"><a href="#">Lorem</a></li>
-                  <li class="nav-link"><a href="#">Lorem</a></li>
+                  <li class="nav-link"><a href="#">Overview</a></li>
+                  <li class="nav-link"><a href="#">Pricing</a></li>
+                  <li class="nav-link"><a href="#">Marketplace</a></li>
+                  <li class="nav-link"><a href="#">Features</a></li>
+                  <li class="nav-link"><a href="#">Integrations</a></li>
                 </ul>
               </div>
               <div class="nav-item">
                 <div class="super-nav">
-                  <li class="nav-link"><a href="#">Company</a></li>
-                  <button class="arrow"></button>
+                  <li class="nav-link">
+                    <a onclick="expand(event)" href="#">Company</a>
+                    <button onclick="expand(event)" class="arrow"></button>
+                  </li>
                 </div>
                 <ul class="sub-nav">
-                  <li class="nav-link"><a href="#">Lorem</a></li>
-                  <li class="nav-link"><a href="#">Lorem</a></li>
+                  <li class="nav-link"><a href="#">About</a></li>
+                  <li class="nav-link"><a href="#">Team</a></li>
+                  <li class="nav-link"><a href="#">Blog</a></li>
+                  <li class="nav-link"><a href="#">Careers</a></li>
                 </ul>
               </div>
               <div class="nav-item">
                 <div class="super-nav">
-                  <li class="nav-link"><a href="#">Connect</a></li>
-                  <button class="arrow"></button>
+                  <li class="nav-link">
+                    <a onclick="expand(event)" href="#">Connect</a>
+                    <button onclick="expand(event)" class="arrow"></button>
+                  </li>
                 </div>
                 <ul class="sub-nav">
-                  <li class="nav-link"><a href="#">Lorem</a></li>
-                  <li class="nav-link"><a href="#">Lorem</a></li>
+                  <li class="nav-link"><a href="#">Contact</a></li>
+                  <li class="nav-link"><a href="#">Newsletter</a></li>
+                  <li class="nav-link"><a href="#">LinkedIn</a></li>
                 </ul>
               </div>
             </ul>
@@ -60,6 +73,7 @@
               </div>
             </ul>
           </div>
+          <button class="hamburger"></button>
         </div>
       </div>
     </nav>
@@ -77,44 +91,66 @@
   </header>
 
   <main>
-    <section class="top-section">
-      <div class="title">
-        <h4>Design for the future</h4>
-      </div>
-      <div class="info">
-        <div class="top-info">
-          <h6 class="info-title">Introducing an extensible editor</h6>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis a neque molestiae animi officia,
-            reprehenderit sit provident corrupti ea adipisci.</p>
+    <div class="top-section">
+      <section class="container">
+        <div class="title">
+          <h1>Design for the future</h1>
         </div>
-        <div class="bottom-info">
-          <h6 class="info-title">Robust content management</h6>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis a neque molestiae animi officia,
-            reprehenderit sit provident corrupti ea adipisci.</p>
+        <div class="body">
+          <img src="./images/illustration-editor-desktop.svg" class="illustration squares" alt="squares">
+          <div class="information">
+            <div class="info top-info">
+              <h2 class="info-title">Introducing an extensible editor</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor doloribus nam vero deleniti eos possimus
+                beatae atque voluptas dicta optio, neque aperiam? Aperiam ducimus suscipit impedit ex officia,
+                reiciendis dignissimos.</p>
+            </div>
+            <div class="info info bottom-info">
+              <h2 class="info-title">Robust content management</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor doloribus nam vero deleniti eos possimus
+                beatae atque voluptas dicta optio, neque aperiam? Aperiam ducimus suscipit impedit ex officia,
+                reiciendis dignissimos.</p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="illustration squares"></div>
-    </section>
+      </section>
+    </div>
     <section class="middle-section">
-      <div class="illustration phones"></div>
-      <div class="info">
-        <h4>State of the Art Infrastructure</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur omnis consequuntur nesciunt iusto
-          aliquid eum voluptatum et magni at odio.</p>
+      <div class="container">
+        <div class="body">
+          <div class="illustration phones">
+            <img src="./images/illustration-phones.svg" alt="phones">
+          </div>
+          <div class="information">
+            <h1>State of the Art Infrastructure</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores fugiat iste rerum quidem, doloremque
+              commodi voluptas impedit error voluptatum animi explicabo unde ut debitis consectetur nam minus velit
+              neque
+              ducimus.</p>
+          </div>
+        </div>
       </div>
     </section>
     <section class="bottom-section">
-      <div class="illustration laptop"></div>
-      <div class="info">
-        <div class="top-info">
-          <h6 class="info-title">Free, open, simple</h6>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis a neque molestiae animi officia,
-            reprehenderit sit provident corrupti ea adipisci.</p>
-        </div>
-        <div class="bottom-info">
-          <h6 class="info-title">Powerful tooling</h6>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis a neque molestiae animi officia,
-            reprehenderit sit provident corrupti ea adipisci.</p>
+      <div class="container">
+        <div class="body">
+          <div class="illustration laptop">
+            <img src="./images/illustration-laptop-mobile.svg" alt="phones">
+          </div>
+          <div class="information">
+            <div class="info top-info">
+              <h2 class="info-title">Free, open, simple</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro minima esse, eaque tenetur,
+                reprehenderit, vero est aliquam deleniti voluptate quasi laborum eius dolorum aliquid dolores inventore
+                totam ipsam odio consequuntur?</p>
+            </div>
+            <div class="info bottom-info">
+              <h2 class="info-title">Powerful tooling</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro minima esse, eaque tenetur,
+                reprehenderit, vero est aliquam deleniti voluptate quasi laborum eius dolorum aliquid dolores inventore
+                totam ipsam odio consequuntur?</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -125,7 +161,7 @@
       <div class="footer-logo">
         <h1>Blogr</h1>
       </div>
-      <div class="product">
+      <div class="footer-section product">
         <ul>
           <p>Product</p>
           <li class="footer-link">
@@ -145,32 +181,36 @@
           </li>
         </ul>
       </div>
-      <div class="company">
-        <p>Company</p>
-        <li class="footer-link">
-          <a href="#">About</a>
-        </li>
-        <li class="footer-link">
-          <a href="#">Team</a>
-        </li>
-        <li class="footer-link">
-          <a href="#">Blog</a>
-        </li>
-        <li class="footer-link">
-          <a href="#">Careers</a>
-        </li>
+      <div class="footer-section company">
+        <ul>
+          <p>Company</p>
+          <li class="footer-link">
+            <a href="#">About</a>
+          </li>
+          <li class="footer-link">
+            <a href="#">Team</a>
+          </li>
+          <li class="footer-link">
+            <a href="#">Blog</a>
+          </li>
+          <li class="footer-link">
+            <a href="#">Careers</a>
+          </li>
+        </ul>
       </div>
-      <div class="connect">
-        <p>Connect</p>
-        <li class="footer-link">
-          <a href="#">Contact</a>
-        </li>
-        <li class="footer-link">
-          <a href="#">Newsletter</a>
-        </li>
-        <li class="footer-link">
-          <a href="#">Linkedin</a>
-        </li>
+      <div class="footer-section connect">
+        <ul>
+          <p>Connect</p>
+          <li class="footer-link">
+            <a href="#">Contact</a>
+          </li>
+          <li class="footer-link">
+            <a href="#">Newsletter</a>
+          </li>
+          <li class="footer-link">
+            <a href="#">Linkedin</a>
+          </li>
+        </ul>
       </div>
     </div>
   </footer>
