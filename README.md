@@ -24,8 +24,8 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/html-and-css-faq-using-flexbox-and-javascript-65GNibrsg](https://www.frontendmentor.io/solutions/html-and-css-faq-using-flexbox-and-javascript-65GNibrsg)
-- Live Site URL: [https://faq-accordion-card-main-ekesolonge.netlify.app](https://faq-accordion-card-main-ekesolonge.netlify.app)
+- Solution URL: [https://www.frontendmentor.io/solutions/html-and-css-landing-page-using-flexbox-and-javascript-d9MsGuzlN](https://www.frontendmentor.io/solutions/html-and-css-landing-page-using-flexbox-and-javascript-d9MsGuzlN)
+- Live Site URL: [https://blogr-landing-page-main.netlify.app](https://blogr-landing-page-main.netlify.app)
 
 ## My process
 
